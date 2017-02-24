@@ -62,6 +62,9 @@ public class Main implements IXposedHookLoadPackage {
              * paramIndices = Arrays.asList(1); // zero-indexed
              * findAndHookMethod(className, lpparam.classLoader, methodName, String.class, Object.class, "boolean", new ...)
              */
+             
+             //TODO pass Object[] array where findAndHook... takes parameters. This will allow you to
+             //TODO loop through a predefined List of methods instead of using a code generator
 
             /*********************************************/
             /**             PASTE CODE BELOW            **/
