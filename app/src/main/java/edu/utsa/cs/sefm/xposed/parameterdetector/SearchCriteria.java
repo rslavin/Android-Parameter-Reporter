@@ -6,6 +6,7 @@ import java.util.List;
 
 public class SearchCriteria {
     protected static final List<String> PACKAGES = Arrays.asList(
+            "edu.utsa.cs.sefm.sinktest",
             "com.example.sean.myapplication",
             "cc.pacer.androidapp",
             "com.dayspringtech.envelopes",
